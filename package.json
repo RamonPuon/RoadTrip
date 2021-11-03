@@ -41,6 +41,7 @@
     "webpack-dev-server": "^4.4.0"
   },
   "devDependencies": {
-    "@types/leaflet": "^1.7.5"
+    "@types/leaflet": "^1.7.5",
+    "file-loader": "^6.2.0"
   }
 }

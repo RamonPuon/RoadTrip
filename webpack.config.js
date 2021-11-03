@@ -36,12 +36,23 @@ module.exports = {
                     "style-loader",
                     "css-loader"
                 ]
+            },
+            {
+                test: /\.(png|jp(e*)g|svg|gif)$/,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options:{
+                            name: "images/[hash].[ext]"
+                        }
+                    }
+                ]
             }
         ]
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: "./index.html",
+            template: "./public/index.html",
             filename: "./index.html"
         }),
         new MiniCssExtractPlugin({

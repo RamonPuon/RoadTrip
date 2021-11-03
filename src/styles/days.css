@@ -1,0 +1,4 @@
+.day_list{
+    display: flex;
+    column-gap: 3rem;
+}
