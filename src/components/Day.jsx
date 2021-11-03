@@ -7,7 +7,8 @@ export default function Day({day}) {
             <img src={day.image} alt={day.name} className="day_image"/>
             
             <div className="day_text">
-                <p>{day.name}</p>
+                <h2>{day.name}</h2>
+                <p>{day.description}</p>
             </div>
         </section>
     )

@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/RamonPuon/RoadTrip/issues"
   },
-  "homepage": "https://github.com/RamonPuon/RoadTrip#readme",
+  "homepage": "https://ramonpuon.github.io/RoadTrip",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
