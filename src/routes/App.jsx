@@ -1,19 +1,15 @@
 import React from 'react';
 import "../styles/app.css";
-import Map from '../components/Map';
 import "../styles/layout.css";
-import Days from '../containers/Days';
-
+import { useRoutes, A } from 'hookrouter';
+import routes from '../hooks/router';
 
 export default function App() {
+    const routesResult = useRoutes(routes);
     return (
-       <div className="layout">
-            <div className="map">
-                <Map/>
-            </div>
-            <div className="days_container">
-                <Days/>
-            </div>
-       </div>
+        <div>
+            {routesResult}
+            <A href="/Tuxtla">Tuxtla y sus alrededores</A>
+        </div>
     )
 }

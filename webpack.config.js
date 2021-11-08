@@ -6,8 +6,9 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "RoadTrip/bundle.js",
-        publicPath: "/RoadTrip/"
+        //Development mode stops working after adding these options
+        //filename: "RoadTrip/bundle.js",
+        //publicPath: "/RoadTrip/"
     },
 
     resolve: {

@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet'
 
 export default function Map() {
 
-    //Polyline, it list of coordinates are joined by a line
+    //Polyline, the list of coordinates can be joined by a line
     const polyline = [
         [16.9414645,-93.7353673],
         [16.808305,-93.473594],
