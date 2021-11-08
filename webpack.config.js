@@ -7,8 +7,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         //Development mode stops working after adding these options
-        //filename: "RoadTrip/bundle.js",
-        //publicPath: "/RoadTrip/"
+        filename: "RoadTrip/bundle.js",
+        publicPath: "/RoadTrip/"
     },
 
     resolve: {
